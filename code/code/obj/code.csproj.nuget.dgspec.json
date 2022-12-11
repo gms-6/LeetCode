@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\code\\code\\code.csproj": {}
+    "D:\\aaa\\code\\code\\code.csproj": {}
   },
   "projects": {
-    "D:\\Github\\code\\code\\code.csproj": {
+    "D:\\aaa\\code\\code\\code.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\code\\code\\code.csproj",
+        "projectUniqueName": "D:\\aaa\\code\\code\\code.csproj",
         "projectName": "code",
-        "projectPath": "D:\\Github\\code\\code\\code.csproj",
+        "projectPath": "D:\\aaa\\code\\code\\code.csproj",
         "packagesPath": "C:\\Users\\14498\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\code\\code\\obj\\",
+        "outputPath": "D:\\aaa\\code\\code\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\14498\\AppData\\Roaming\\NuGet\\NuGet.Config",

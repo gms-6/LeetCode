@@ -1,4 +1,5 @@
-﻿using System;
+﻿using code.Model;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -14,8 +15,9 @@ namespace code
             string s = "code";
             bool a=CanPermutePalindrome(s);
         }
+        #region 待整理代码
         /// <summary>
-        /// leet
+        /// 剑指 Offer II 027. 回文链表
         /// </summary>
         /// <param name="head"></param>
         /// <returns></returns>
@@ -861,14 +863,8 @@ namespace code
 
         #endregion
     }
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
-        public ListNode(int val = 0, ListNode next = null)
-        {
-            this.val = val;
-            this.next = next;
-        }
-    }
+
+    #endregion
+
+    
 }
