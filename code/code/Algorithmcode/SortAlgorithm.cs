@@ -97,7 +97,7 @@ namespace code.Algorithmcode
         #endregion
 
         #region 快速排序 对冒泡排序改进
-        public  void kuaisu(int[] nums, int left, int right)
+        public void kuaisu(int[] nums, int left, int right)
         {
             if (left < right)
             {

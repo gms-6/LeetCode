@@ -35,5 +35,27 @@ namespace code.Algorithmcode
             return maxcount;
 
         }
+
+        #region 快速排序 对冒泡排序改进
+        public void kuaisu(int[] nums, int left, int right)
+        {
+            if (left < right)
+            {
+                int i = left;
+                int j = right;
+                int start = nums[i];
+                while (i < j)
+                {
+                    while (start <= nums[j] && i < j) j--;
+                    nums[i] = nums[j];
+                    while (start >= nums[i] && i < j) i++;
+                    nums[j] = nums[i];
+                }
+                nums[i] = start;
+                kuaisu(nums, i + 1, right);
+                kuaisu(nums, left, i - 1);
+            }
+        }
+        #endregion
     }
 }
