@@ -9,14 +9,14 @@ namespace code.Algorithmcode
     /// <summary>
     /// leet 125. 验证回文串
     /// </summary>
-    public class leet125
+    public class LeetCode125
     {
         /// <summary>
         /// leet 125. 验证回文串
         /// </summary>
         /// <param name="s"></param>
         /// <returns></returns>
-        public static bool IsPalindrome(string s)
+        public  bool IsPalindrome(string s)
         {
             Stack<int> stack = new Stack<int>();
             char[] temp = new char[s.Length];
