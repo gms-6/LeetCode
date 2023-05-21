@@ -3,3 +3,11 @@
 ################################################################################
 
 /.vs/AGithub/v17
+/.vs
+/code/code/obj/Release/net5.0
+/code/code/obj/Debug/net5.0
+*.json
+*.props
+/code/code/obj/code.csproj.nuget.g.targets
+/code/code/obj/project.nuget.cache
+/code/.vs/code/DesignTimeBuild/.dtbcache.v2
